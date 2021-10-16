@@ -3,8 +3,8 @@ import RoomJoinPage from "./RoomJoinPage";
 import CreateRoomPage from "./CreateRoomPage";
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import Room from './Room';
-import { Grid, Button, ButtonGroup, Typography } from '@material-ui/core'
-import Info from './Info'
+import { Grid, Button, ButtonGroup, Typography } from '@material-ui/core';
+import Info from './Info';
 
 
 

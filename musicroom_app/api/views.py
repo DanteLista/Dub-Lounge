@@ -1,11 +1,13 @@
 from django.http.response import JsonResponse
 from django.shortcuts import render
+from django.views.decorators import csrf
 from rest_framework import generics, status
 from .serializers import RoomSerializer, CreateRoomSerializer, UpdateRoomSerializer
 from .models import Room
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
 from . import serializers
 
